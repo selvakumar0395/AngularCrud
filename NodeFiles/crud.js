@@ -23,7 +23,6 @@ app.get('/getdata', function(req,res)
         res.send(results);
     });
 });
-
 app.get('/deletedata/:id', function(req,res)
 {
     let id = req.params.id;
@@ -33,7 +32,6 @@ app.get('/deletedata/:id', function(req,res)
     });
 
 });
-
 app.post('/insertData', function(req,res)
 {
     let fname = req.body.fname;
